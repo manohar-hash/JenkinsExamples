@@ -10,7 +10,7 @@ public class arith{
 		System.out.println("addition="+r1);
 		System.out.println("subtraction="+r2);
 		System.out.println("multiplication="+r3);
-		System.out.println("division"+r4);
-		System.out.println("modulus"+r5);
+		System.out.println("division="+r4);
+		System.out.println("modulus="+r5);
 	}
 }
