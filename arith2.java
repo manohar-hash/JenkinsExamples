@@ -1,12 +1,8 @@
 import java.util.*;
 class arith2{
 	public static void main(String[] args){
-		Scanner sc=new Scanner(System.in);
-		System.out.println("enter 1st number:");
-
-		int a=sc.nextInt();
-		System.out.println("enter 2nd number:");
-		int b=sc.nextInt();
+		int a=Integer.parseInt(args[0]);
+		int b=Integer.parseInt(args[1]);
 		int r1=a+b;
                 int r2=a-b;
                 int r3=a*b;
